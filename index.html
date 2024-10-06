@@ -25,13 +25,13 @@
       <header class="header">
         <div class="header-container container">
           <nav class="navbar">
-            <a href="a" target="_blank" class="logo-link">
+            <a href="index.html" target="_blank" class="logo-link">
               WEB<span class="logo-span">STUDIO</span>
             </a>
             <ul class="navbar-ul">
-              <li><a class="navbar-link" href="a">Studio</a></li>
-              <li><a class="navbar-link" href="a">Portfolio</a></li>
-              <li><a class="navbar-link" href="a">Contacts</a></li>
+              <li><a class="navbar-link" href="index.html">Studio</a></li>
+              <li><a class="navbar-link" href="index.html">Portfolio</a></li>
+              <li><a class="navbar-link" href="index.html">Contacts</a></li>
             </ul>
           </nav>
           <address class="address">
@@ -53,17 +53,94 @@
       <main>
         <section class="hero">
           <div class="container">
-            <h1 class="hone-title">Effective Solutions for Your Business</h1>
+            <h1 class="hone-title"></h1>
 
             <button class="button-item" type="button">Order Service</button>
+
+
+
+            <div class="form-div"><form class="form" name="issue_report_form" autocomplete="off">
+              <svg  class="close-svg" width="24px" height="24px"><use xlink:href="./images/icons.svg#icon-close"></use></svg>
+              <div class="content-form">
+               
+              <p class="entry-title">Leave your contacts and we will call you back</p>
+
+              <label class="form-name ent-title">
+               Name <br>
+               <div class="svg-input">
+              
+                <input
+                  class="form-input-name input"
+                  type="text"
+                  name="username"
+                  autofocus
+                  
+                />
+                <svg  class="name-svg input-svg"  width="18px" height="24px"><use xlink:href="./images/icons.svg#icon-name"></use></svg>
+              </div>
+              </label>
+      
+              <label class="form-phone ent-title">
+                Phone <br>
+                <div class="svg-input  ">
+                
+                 <input
+                   class="form-input-phone input"
+                   type="text"
+                   name="phone"
+                   autofocus
+                 />
+                 <svg  class="phone-svg input-svg" width="18px" height="24px"><use xlink:href="./images/icons.svg#icon-phone"></use></svg>
+                </div>
+               </label>
+              
+               <label class="form-email ent-title">
+                Email <br>
+                <div class="svg-input">
+                 
+                 <input
+                   class="form-input-email input"
+                   type="text"
+                   name="email"
+                placeholder="E-mail"
+                   autofocus
+                 />
+                 <svg  class="email-svg input-svg" width="18px" height="24px"><use xlink:href="./images/icons.svg#icon-email"></use></svg>
+                </div>
+               </label>
+
+               <label class="form-comment">
+                Comment <br>
+                <textarea
+                  class="form-input input"
+                  name="comment"
+                  placeholder="Text input"
+                  rows="5"
+                ></textarea>
+              </label>
+              <div class="form-checkbox">
+                <input type="checkbox" name="language" value="policy" id="policy" class="checked">
+                <label class="form-private" for="policy">I accept the terms and conditions of the <span class="priv-link"><a href="a" class="privacy">Privacy Policy</a></span></label>
+              </div>
+              <button class="form-send" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+            
           </div>
+        </div>
+          
+
+
+
+       
         </section>
         <section class="feature">
           <div class="container">
             <h2 class="visually-hidden">1</h2>
             <ul class="feature-ul">
               <li class="feature-li">
-                <svg  class=feature-svg width="264px" height="112px"><use xlink:href="./images/icons.svg#icon-s1"></use></svg>
+                <svg  class=feature-svg width="264px" height="112px"><use xlink:href="./images/symbol-defs2.svg#icon-Icon-1"></use></svg>
                 <h3 class="hthree-title">Strategy</h3>
                 <p class="p-content">
                   Our goal is to identify the business problem to walk away with
@@ -71,7 +148,7 @@
                 </p>
               </li>
               <li class="feature-li">
-                <svg  class=feature-svg width="264px" height="112px"><use xlink:href="./images/icons.svg#icon-s2"></use></svg>
+                <svg  class=feature-svg width="264px" height="112px"><use xlink:href="./images/symbol-defs2.svg#icon-Icon-2"></use></svg>
                 <h3 class="hthree-title">Punctuality</h3>
                 <p class="p-content">
                   Bring the key message to the brand's audience for the best
@@ -79,7 +156,7 @@
                 </p>
               </li>
               <li class="feature-li">
-                <svg  class=feature-svg width="264px" height="112px"><use xlink:href="./images/icons.svg#icon-s3"></use></svg>
+                <svg  class=feature-svg width="264px" height="112px"><use xlink:href="./images/symbol-defs2.svg#icon-Icon-3"></use></svg>
                 <h3 class="hthree-title">Diligence</h3>
                 <p class="p-content">
                   Research and confirm brands that present the strongest digital
@@ -87,7 +164,7 @@
                 </p>
               </li>
               <li class="feature-li">
-                <svg  class=feature-svg width="264px" height="112px"><use xlink:href="./images/icons.svg#icon-s4"></use></svg>
+                <svg  class=feature-svg width="264px" height="112px"><use xlink:href="./images/symbol-defs2.svg#icon-Icon-4"></use></svg>
                 <h3 class="hthree-title">Technologies</h3>
                 <p class="p-content">
                   Design practice focused on digital experiences. We bring forth
@@ -102,36 +179,36 @@
             <h2 class="htwo-title">Our Team</h2>
             <ul class="feature-ul">
               <li class="li-our-team">
-                <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" />
+                <img src="./images/mark.jpg" alt="Mark Guerrero" width="260" />
                 <div class="team-member">
-                  <h3 class="hthree-title-team">Mark Guerrero</h3>
-                  <p class="p-content-team">Product Designer</p>
+                  <h3 class="hthree-title">Mark Guerrero</h3>
+                  <p class="p-content">Product Designer</p>
                   <ul class="icon-list">
                     <li class="icon-instagram icon">
                       <a href="a" class="link-icon">
                       <svg class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-01"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                     </li>
                     <li class="icon-twitter icon"></li>
                     <a href="a" class="link-icon">
                     <svg  class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-02"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                     </li>
                     <li class="icon-facebook icon"></li>
                     <a href="a" class="link-icon">
                     <svg class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-03"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </li>
                     </a>
                       <li class="icon-linkedin icon">
                         <a href="a" class="link-icon">
                         <svg class="icon-svg" width="40" height="40">
-                          <use xlink:href="./images/icons.svg#icon-04"></use>
+                          <use xlink:href="./images/symbol-defs.svg#icon-linkedin"></use>
                         </svg>
                       </a>
                       
@@ -142,36 +219,36 @@
               </li>
 
               <li class="li-our-team">
-                <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
+                <img src="./images/tom.jpg" alt="Tom Ford" width="260" />
                 <div class="team-member">
-                  <h3 class="hthree-title-team">Tom Ford</h3>
-                  <p class="p-content-team">Frontend Developer</p>
+                  <h3 class="hthree-title">Tom Ford</h3>
+                  <p class="p-content">Frontend Developer</p>
                   <ul class="icon-list">
                     <li class="icon-instagram icon">
                       <a href="a" class="link-icon">
                       <svg class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-01"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                     </li>
                     <li class="icon-twitter icon"></li>
                     <a href="a" class="link-icon">
                     <svg  class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-02"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                     </li>
                     <li class="icon-facebook icon"></li>
                     <a href="a" class="link-icon">
                     <svg class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-03"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </li>
                     </a>
                       <li class="icon-linkedin icon">
                         <a href="a" class="link-icon">
                         <svg class="icon-svg" width="40" height="40">
-                          <use xlink:href="./images/icons.svg#icon-04"></use>
+                          <use xlink:href="./images/symbol-defs.svg#icon-linkedin"></use>
                         </svg>
                       </a>
                       
@@ -185,37 +262,37 @@
                 <img
                   src="./images/camila.jpg"
                   alt="Camila Garcia"
-                  width="264"
+                  width="260"
                 />
                 <div class="team-member">
-                  <h3 class="hthree-title-team">Camila Garcia</h3>
-                  <p class="p-content-team">Marketing</p>
+                  <h3 class="hthree-title">Camila Garcia</h3>
+                  <p class="p-content">Marketing</p>
                   <ul class="icon-list">
                     <li class="icon-instagram icon">
                       <a href="a" class="link-icon">
                       <svg class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-01"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                     </li>
                     <li class="icon-twitter icon"></li>
                     <a href="a" class="link-icon">
                     <svg  class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-02"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                     </li>
                     <li class="icon-facebook icon"></li>
                     <a href="a" class="link-icon">
                     <svg class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-03"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </li>
                     </a>
                       <li class="icon-linkedin icon">
                         <a href="a" class="link-icon">
                         <svg class="icon-svg" width="40" height="40">
-                          <use xlink:href="./images/icons.svg#icon-04"></use>
+                          <use xlink:href="./images/symbol-defs.svg#icon-linkedin"></use>
                         </svg>
                       </a>
                       
@@ -228,37 +305,37 @@
                 <img
                   src="./images/daniel.jpg"
                   alt="Daniel Wilson"
-                  width="264"
+                  width="260"
                 />
                 <div class="team-member">
-                  <h3 class="hthree-title-team">Daniel Wilson</h3>
-                  <p class="p-content-team">UI Designer</p>
+                  <h3 class="hthree-title">Daniel Wilson</h3>
+                  <p class="p-content">UI Designer</p>
                   <ul class="icon-list">
                     <li class="icon-instagram icon">
                       <a href="a" class="link-icon">
                       <svg class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-01"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-instagram"></use>
                       </svg>
                     </a>
                     </li>
                     <li class="icon-twitter icon"></li>
                     <a href="a" class="link-icon">
                     <svg  class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-02"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-twitter"></use>
                       </svg>
                     </a>
                     </li>
                     <li class="icon-facebook icon"></li>
                     <a href="a" class="link-icon">
                     <svg class="icon-svg" width="40" height="40">
-                        <use xlink:href="./images/icons.svg#icon-03"></use>
+                        <use xlink:href="./images/symbol-defs.svg#icon-facebook"></use>
                       </svg>
                     </li>
                     </a>
                       <li class="icon-linkedin icon">
                         <a href="a" class="link-icon">
                         <svg class="icon-svg" width="40" height="40">
-                          <use xlink:href="./images/icons.svg#icon-04"></use>
+                          <use xlink:href="./images/symbol-defs.svg#icon-linkedin"></use>
                         </svg>
                       </a>
                       
@@ -277,7 +354,7 @@
              
               <li class="our-li our-li-1">
                 <div class="card-text">
-                  <p class="card-text-part">
+                  <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                     · Cloud Storage App
@@ -296,7 +373,7 @@
 
               <li class="our-li our-li-1">
                 <div class="card-text">
-                  <p class="card-text-part">
+                  <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                     · Cloud Storage App
@@ -315,7 +392,7 @@
 
               <li class="our-li our-li-1">
                 <div class="card-text">
-                  <p class="card-text-part">
+                  <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                     · Cloud Storage App
@@ -334,7 +411,7 @@
 
               <li class="our-li our-li-1">
                 <div class="card-text">
-                  <p class="card-text-part">
+                  <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                     · Cloud Storage App
@@ -353,7 +430,7 @@
 
               <li class="our-li our-li-1">
                 <div class="card-text">
-                  <p class="card-text-part">
+                  <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                     · Cloud Storage App
@@ -372,7 +449,7 @@
 
               <li class="our-li our-li-1">
                 <div class="card-text">
-                  <p class="card-text-part">
+                  <p>
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                     · Cloud Storage App
@@ -439,7 +516,23 @@
                       
                     </li>
                    </ul>
-        
+        <div class="sub-part">
+          <p class="sub">Subscribe</p>
+          <input
+          class="footer-input"
+          type="text"
+          name="email"
+       placeholder="E-mail"
+          autofocus
+        />
+        <div class="sub-button">
+        <button class="sub-but" type="submit">Subscribe</button>
+        <svg class="footer-svg" width="24px" height="24px"><use xlink:href="./images/icons.svg#icon-footer"></use></svg>
+      </div>
+       </div>
+      </label>
+
+        </div>
       </footer>
     </div>
   </body>
